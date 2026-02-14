@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Climate Monitor</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1 class="title">Smart Climate & Energy Monitor</h1>
+
+        <section class="card">
+
+            <div class="metric">
+                <span>🌡 Temperature</span>
+                <strong id="temp">-- °C</strong>
+            </div>
+
+            <div class="metric">
+                <span>💧 Humidity</span>
+                <strong id="hum">-- %</strong>
+            </div>
+
+            <div class="metric">
+                <span>🚶 Motion</span>
+                <strong id="motion">--</strong>
+            </div>
+
+            <div class="metric">
+                <span>⚡ FAN1</span>
+                <strong id="FAN1">--</strong>
+            </div>
+
+            <div class="metric">
+                <span>⚡ FAN2</span>
+                <strong id="FAN2">--</strong>
+            </div>
+            <div class="metric">
+                <span>⚡ FAN3</span>
+                <strong id="FAN3">--</strong>
+            </div>
+            <div class="metric">
+                <span>⚡ FAN4</span>
+                <strong id="FAN4">--</strong>
+            </div>
+            <div class="metric">
+                <span>⚡TUBELIGHT1 </span>
+                <strong id="TUBELIGHT1">--</strong>
+            </div>
+            <div class="metric">
+                <span>⚡TUBELIGHT2 </span>
+                <strong id="TUBELIGHT2">--</strong>
+            </div>
+            <div class="metric">
+                <span>⚡ VENTILATION</span>
+                <strong id="VENTILATION">--</strong>
+            </div>
+            
+
+        </section>
+
+        <div id="alertBox" class="alert hidden">
+            ⚠ Device left ON without motion
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
