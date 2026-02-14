@@ -1,0 +1,94 @@
+[
+  {
+    "temperature": 27,
+    "humidity": 45,
+    "motion": true,
+
+    "FAN1": false,
+    "FAN2": false,
+    "FAN3": false,
+    "FAN4": false,
+
+    "VENTILATION": false,
+   
+    "TUBELIGHT1": true,
+    "TUBELIGHT2": false
+  },
+
+  {
+    "temperature": 32,
+    "humidity": 60,
+    "motion": false,
+
+    "FAN1": true,
+    "FAN2": false,
+    "FAN3": true,
+    "FAN4": false,
+
+    "VENTILATION": false,
+    
+    "TUBELIGHT1": true,
+    "TUBELIGHT2": false
+  },
+ {
+    "temperature": 34,
+    "humidity": 70,
+    "motion": false,
+
+    "FAN1": true,
+    "FAN2": true,
+    "FAN3": false,
+    "FAN4": false,
+
+    "VENTILATION": true,
+    
+    "TUBELIGHT1": true,
+    "TUBELIGHT2": true
+  },
+  {
+    "temperature": 34,
+    "humidity": 70,
+    "motion": false,
+
+    "FAN1": true,
+    "FAN2": true,
+    "FAN3": false,
+    "FAN4": false,
+
+    "VENTILATION": true,
+    
+    "TUBELIGHT1": true,
+    "TUBELIGHT2": true
+  },
+{
+    "temperature": 34,
+    "humidity": 70,
+    "motion": false,
+
+    "FAN1": true,
+    "FAN2": true,
+    "FAN3": false,
+    "FAN4": false,
+
+    "VENTILATION": true,
+    
+    "TUBELIGHT1": true,
+    "TUBELIGHT2": true
+  },
+  {
+    "temperature": 30,
+    "humidity": 70,
+    "motion": true,
+
+    "FAN1": true,
+    "FAN2": true,
+    "FAN3": false,
+    "FAN4": false,
+
+    "VENTILATION": true,
+    
+    "TUBELIGHT1": true,
+    "TUBELIGHT2": true
+  }
+
+]
