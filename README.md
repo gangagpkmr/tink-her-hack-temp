@@ -2,27 +2,39 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [smart climate energy conservation system] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: []
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-
+- Member 1: [ganga] - [LBSITW poojapura thiruvanthapuram]
+- Member 2: [malavika] - [LBSITW poojapura thiruvanthapuram]
+-
 ### Hosted Project Link
-[mention your project hosted link here]
+[http://127.0.0.1:5500/tink-her-hack-temp/index.html]
 
 ### Project Description
-[2-3 lines about what your project does]
+[Web-based automation system that monitors temperature, humidity, and motion of people to intelligently control electrical appliances. The system automatically activates cooling and lighting devices based on environmental conditions and sends alerts to email if appliances are left running without occupancy]
 
 ### The Problem statement
-[What problem are you solving?]
+[The Problem statement
+Electricity is wasted in homes, classrooms, and offices
+In Government Offices: Lights & fans run in empty rooms
+RECENTLY AN INCIDENT HAPPENED AT SECRETARIAT: Pedestal fan overheated and exploded.
+No real-time monitoring
+High electricity bills
+No energy usage analytics]
 
 ### The Solution
-[How are you solving it?]
+[The Solution
+Real-time climate monitoring
+Occupancy-based automation
+If motion not detected and the appliances are still running,email alerts are sent.
+Energy analytics dashboard
+Solution prepared by combining United Nations SDG 7 - Affordable & Clean Energy
+United Nations SDG 13 - Climate Action]
 
 ---
 
@@ -31,12 +43,11 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
 
-**For Hardware:**
+**For HLanguages used: [JavaScript, HTML, CSS]
+- Libraries used: [emailjs,fetchapi(for reading jsons sensor data]
+- Tools used: [ VS Code, Git,]
+- Framework used-lightweight frontend architecture usedardware:**
 - Main components: [List main components]
 - Specifications: [Technical specifications]
 - Tools required: [List tools needed]
@@ -46,11 +57,12 @@
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+Features
 
+- Feature 1:Smart Motion-Based Automation: Detects human presence and turns ON necessary appliances such as lights and fans
+- Feature 2:Temperature-Based Fan Control & Humidity-Based Ventilation Control
+- Feature 3:Automatic Energy Saving Mode: If no motion is detected and appliances are still running, the system automatically turns OFF all devices to prevent energy wastage.
+- Feature 4: Real-Time Monitoring Dashboard & Email Alert System: Sends alert notifications when appliances are left ON without motion detection
 ---
 
 ## Implementation
@@ -83,14 +95,7 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img width="1920" height="1080" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/1eb80777-555a-4a49-bb42-b0b67e423bd6" />
 
 #### Diagrams
 
@@ -361,7 +366,7 @@ python script.py -v --format json data.json
 ## Project Demo
 
 ### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
+https://drive.google.com/file/d/1dmjafNNTe2SXI5W9zemkHvZ_CFFDevkG/view?usp=drivesdk
 
 *Explain what the video demonstrates - key features, user flow, technical highlights*
 
